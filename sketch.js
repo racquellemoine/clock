@@ -32,8 +32,8 @@ function drawDot(x, y, radius, color) {
 function drawDots(numDots) {
   
     for (let i = 0; i < numDots; i++) {
-        const x = Math.random() * canvas.width;
-        const y = Math.random() * canvas.height;
+        const x = 0 * canvas.width;
+        const y = i * canvas.height;
         const radius = Math.random() * 10 + 5; // Random radius between 5 and 15
         const color = `rgba(${Math.random() * 255},${Math.random() * 255},${Math.random() * 255},1)`;
   
