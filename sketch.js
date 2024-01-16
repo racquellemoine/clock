@@ -21,6 +21,7 @@ function draw() {
 
 // Function to draw a dot
 function drawDot(x, y, radius, color) {
+    const ctx = canvas.getContext('2d');
     ctx.beginPath();
     ctx.arc(x, y, radius, 0, 2 * Math.PI);
     ctx.fillStyle = color;
